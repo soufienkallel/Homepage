@@ -1,0 +1,22 @@
+{
+  "redirects": [
+    { "source": "/solutions", "destination": "/", "permanent": true },
+    { "source": "/solutions/:path*", "destination": "/", "permanent": true },
+    { "source": "/newsroom", "destination": "/guides", "permanent": true },
+    { "source": "/newsroom/:slug", "destination": "/guides/:slug", "permanent": true },
+    { "source": "/partners", "destination": "/devenir-partenaire", "permanent": true },
+    {
+      "source": "/flyer",
+      "destination": "/demande-inspection?utm_source=flyer&utm_medium=print&utm_campaign=lancement-sept26",
+      "permanent": false
+    },
+    {
+      "source": "/roadshow",
+      "destination": "/?utm_source=flyer&utm_medium=print&utm_campaign=roadshow-monastir-oct26&utm_content=flyer-a5-investisseurs",
+      "permanent": false
+    }
+  ],
+  "cleanUrls": true,
+  "rewrites": [{ "source": "/((?!api/).*)", "destination": "/app" }],
+  "crons": [{ "path": "/api/agents/marketing/run", "schedule": "0 6 * * 1" }]
+}

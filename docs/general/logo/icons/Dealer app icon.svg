@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="dealer-disc">
+      <circle cx="200" cy="200" r="78"/>
+    </clipPath>
+  </defs>
+
+  <!-- Navy background -->
+  <rect width="400" height="400" fill="#263f4f"/>
+
+  <!-- White inner disc -->
+  <circle cx="200" cy="200" r="78" fill="#fff"/>
+
+  <!-- Figure clipped inside the disc -->
+  <g clip-path="url(#dealer-disc)">
+    <!-- Orange head -->
+    <circle cx="200" cy="164" r="34" fill="#ee7749"/>
+    <!-- Orange torso / shoulders -->
+    <path d="M124,272 C124,228 158,200 200,200 C242,200 276,228 276,272 L276,310 L124,310 Z" fill="#ee7749"/>
+    <!-- White tie — modern: knot + tapered blade with point -->
+    <path d="M194,198 L206,198 L210,212 L206,218 L216,266 L200,294 L184,266 L194,218 L190,212 Z" fill="#fff"/>
+  </g>
+
+  <!-- Compass ring (drawn on top) -->
+  <path d="M200.18,63.05H113.09v0h-28l28,32.38h.3C85.94,120.27,69.74,157.52,69.74,200c0,77,53.17,136.78,130.09,137h.35c77.12,0,130.07-59.86,130.07-137S277.3,63.05,200.18,63.05Zm77.89,137a78.07,78.07,0,0,1-156.14,0v-.47a78.07,78.07,0,0,1,156.14,0Z" fill="#477e9b"/>
+</svg>

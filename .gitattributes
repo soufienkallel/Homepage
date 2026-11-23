@@ -1,0 +1,13 @@
+# Normalize text files to LF in the repo and in every working copy, so
+# Prettier (endOfLine: lf) gives the same result on Windows as in CI.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary

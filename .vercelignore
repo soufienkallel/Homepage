@@ -1,0 +1,10 @@
+# Never uploaded by `vercel` / `vercel --prod` from a local checkout
+.env
+.env.*
+.claude/
+Claude outputs/
+/assets/
+docs/
+doc/
+supabase/
+dist/

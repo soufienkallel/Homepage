@@ -1,0 +1,17 @@
+node_modules
+dist
+.expo
+_archived
+*.bundled.js
+apps/unified/dist
+apps/unified/.expo
+homepage/dist
+supabase
+scripts
+tests
+*.md
+package-lock.json
+*.html
+*.sql
+.claude/worktrees
+.claude/settings.local.json
